@@ -11,7 +11,9 @@
     // позволяет использовать import вместо require
     "esModuleInterop": true,
     // позволяет использовать default import вместо * as ...
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    // для абсолютных импортов
+    "baseUrl": "."
   },
   "ts-node": {
     "compilerOptions": {
