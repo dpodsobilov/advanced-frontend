@@ -23,6 +23,7 @@ export function buildPlugins({
     new webpack.HotModuleReplacementPlugin(),
   ];
 
+  // Также этот плагин добавляет оверлей для ошибок поверх ErrorBoundary
   if (isDev) {
     plugins.push(new ReactRefreshWebpackPlugin());
   }
